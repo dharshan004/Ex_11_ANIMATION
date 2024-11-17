@@ -10,24 +10,27 @@ To develop a application to add animation to imageview,move,blink,fade,clockwise
 Android Studio(Latest Version)
 
 ## ALGORITHM:
+Step 1: start the program.
 
-1.Start a new Android project in Android Studio.
-2.Create UI elements (TextView, ImageView, Buttons) in activity_main.xml.
-3.Define animations in the res/anim directory (blink.xml, fade.xml, zoom.xml, clockwise.xml, etc.).
-4.Implement the animation logic in MainActivity.java by loading and applying the animations to the ImageView.
-5.Link buttons to their respective animation methods using the onClick attribute.
-6.Run the app to verify the animations.
+Step 2: write the code for xml and java code.
+
+Step 3: write the code for animation. 
+
+Step 4: Run the program.
+
+Step 5: stop the program.
+
 
 ## PROGRAM:
 ```
 /*
+
 Program to display animation operation”.
-Developed by: S DHARSHAN
-Registeration Number : 2122222040036
+Developed by: dharshan S
+Registeration Number : 212222040036
+
 */
 ```
-
-## OUTPUT
 ## In activity_main.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -118,9 +121,7 @@ Registeration Number : 2122222040036
         android:text="slide" />
 
 </RelativeLayout>
-
 ```
-
 ## MainActivity.java
 ```
 package com.example.ex_9;
@@ -183,9 +184,8 @@ public class MainActivity extends AppCompatActivity {
         image.startAnimation(animation1);
     }
 }
-
 ```
-## blink.xml
+## blink.ml
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
         android:repeatCount="infinite"/>
 </set>
 ```
-## clockwise.xml
+## Clockwise.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
@@ -219,7 +219,6 @@ public class MainActivity extends AppCompatActivity {
         android:duration="5000" >
     </rotate>
 </set>
-
 ```
 ## Fade.xml
 ```
@@ -239,7 +238,6 @@ public class MainActivity extends AppCompatActivity {
         android:toAlpha="0" />
 
 </set>
-
 ```
 ## Myanimation.xml
 ```
@@ -266,11 +264,8 @@ public class MainActivity extends AppCompatActivity {
         android:pivotY="50%" >
     </scale>
 </set>
-
 ```
-
 ## Slide.xml
-
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
@@ -283,7 +278,6 @@ public class MainActivity extends AppCompatActivity {
         android:toXScale="1.0"
         android:toYScale="0.0" />
 </set>
-
 ```
 ## Zoom.xml
 ```
@@ -299,15 +293,12 @@ public class MainActivity extends AppCompatActivity {
         android:toXScale="1.0"
         android:toYScale="0.0" />
 </set>
-
 ```
 
-## OUTPUT:
-![image](https://github.com/user-attachments/assets/f4c8388b-e014-4551-a193-efa2e65a9a31)
+## OUTPUT
+![image](https://github.com/user-attachments/assets/a7ea926c-5c38-428e-9e9d-c252877c7a4b)
 
-![image](https://github.com/user-attachments/assets/70f445fb-e42b-4db1-a4c2-c3f54b67017f)
+![image](https://github.com/user-attachments/assets/e32679cc-b632-4a0e-9760-108b38fbb26b)
 
 ## RESULT
-
 The application was successfully developed to add animations (move, blink, fade, clockwise, zoom, and slide) to an ImageView. Upon interacting with the UI, the animations are applied as expected.
-

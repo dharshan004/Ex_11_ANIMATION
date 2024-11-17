@@ -19,9 +19,12 @@ Step 3: write the code for animation.
 Step 4: Run the program.
 
 Step 5: stop the program.
+
+
 ## PROGRAM:
 ```
 /*
+
 Program to display animation operation”.
 Developed by: dharshan S
 Registeration Number : 212222040036
@@ -291,9 +294,15 @@ public class MainActivity extends AppCompatActivity {
         android:toYScale="0.0" />
 </set>
 ```
+
 ## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/a7ea926c-5c38-428e-9e9d-c252877c7a4b)
 
+
 ![image](https://github.com/user-attachments/assets/e32679cc-b632-4a0e-9760-108b38fbb26b)
+
+
+
 ## RESULT
 The application was successfully developed to add animations (move, blink, fade, clockwise, zoom, and slide) to an ImageView. Upon interacting with the UI, the animations are applied as expected.

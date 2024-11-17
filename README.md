@@ -32,6 +32,7 @@ Registeration Number : 212222040036
 */
 ```
 ## In activity_main.xml
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -294,15 +295,10 @@ public class MainActivity extends AppCompatActivity {
         android:toYScale="0.0" />
 </set>
 ```
-
 ## OUTPUT
-
 ![image](https://github.com/user-attachments/assets/a7ea926c-5c38-428e-9e9d-c252877c7a4b)
 
-
 ![image](https://github.com/user-attachments/assets/e32679cc-b632-4a0e-9760-108b38fbb26b)
-
-
 
 ## RESULT
 The application was successfully developed to add animations (move, blink, fade, clockwise, zoom, and slide) to an ImageView. Upon interacting with the UI, the animations are applied as expected.
